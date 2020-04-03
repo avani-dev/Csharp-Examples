@@ -1,0 +1,6 @@
+C:\Users\avani\source\repos\WebApplication1\InheritanceTypesSample\bin\Debug\InheritanceTypesSample.exe.config
+C:\Users\avani\source\repos\WebApplication1\InheritanceTypesSample\bin\Debug\InheritanceTypesSample.exe
+C:\Users\avani\source\repos\WebApplication1\InheritanceTypesSample\bin\Debug\InheritanceTypesSample.pdb
+C:\Users\avani\source\repos\WebApplication1\InheritanceTypesSample\obj\Debug\InheritanceTypesSample.csprojAssemblyReference.cache
+C:\Users\avani\source\repos\WebApplication1\InheritanceTypesSample\obj\Debug\InheritanceTypesSample.exe
+C:\Users\avani\source\repos\WebApplication1\InheritanceTypesSample\obj\Debug\InheritanceTypesSample.pdb

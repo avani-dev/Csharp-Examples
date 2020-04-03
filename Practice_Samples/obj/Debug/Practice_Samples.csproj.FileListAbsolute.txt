@@ -1,0 +1,6 @@
+C:\Users\avani\source\repos\WebApplication1\Practice_Samples\bin\Debug\Practice_Samples.exe.config
+C:\Users\avani\source\repos\WebApplication1\Practice_Samples\bin\Debug\Practice_Samples.exe
+C:\Users\avani\source\repos\WebApplication1\Practice_Samples\bin\Debug\Practice_Samples.pdb
+C:\Users\avani\source\repos\WebApplication1\Practice_Samples\obj\Debug\Practice_Samples.csprojAssemblyReference.cache
+C:\Users\avani\source\repos\WebApplication1\Practice_Samples\obj\Debug\Practice_Samples.exe
+C:\Users\avani\source\repos\WebApplication1\Practice_Samples\obj\Debug\Practice_Samples.pdb

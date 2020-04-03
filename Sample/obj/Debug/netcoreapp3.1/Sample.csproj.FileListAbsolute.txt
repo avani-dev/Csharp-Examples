@@ -1,0 +1,5 @@
+C:\Users\avani\source\repos\WebApplication1\Sample\bin\Debug\netcoreapp3.1\Sample.exe
+C:\Users\avani\source\repos\WebApplication1\Sample\obj\Debug\netcoreapp3.1\Sample.AssemblyInfoInputs.cache
+C:\Users\avani\source\repos\WebApplication1\Sample\obj\Debug\netcoreapp3.1\Sample.AssemblyInfo.cs
+C:\Users\avani\source\repos\WebApplication1\Sample\obj\Debug\netcoreapp3.1\Sample.dll
+C:\Users\avani\source\repos\WebApplication1\Sample\obj\Debug\netcoreapp3.1\Sample.pdb
