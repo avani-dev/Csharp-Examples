@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceConstSample", "I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMProtectedType", "AMProtectedType\AMProtectedType.csproj", "{753061AC-AC99-49B2-92BC-B21856A5ED9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMInternalType", "AMInternalType\AMInternalType.csproj", "{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{753061AC-AC99-49B2-92BC-B21856A5ED9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{753061AC-AC99-49B2-92BC-B21856A5ED9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{753061AC-AC99-49B2-92BC-B21856A5ED9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+C:\Users\avani\source\repos\Csharp_Examples\AMInternalType\bin\Debug\AMInternalType.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\AMInternalType\bin\Debug\AMInternalType.exe
+C:\Users\avani\source\repos\Csharp_Examples\AMInternalType\bin\Debug\AMInternalType.pdb
+C:\Users\avani\source\repos\Csharp_Examples\AMInternalType\obj\Debug\AMInternalType.csprojAssemblyReference.cache
+C:\Users\avani\source\repos\Csharp_Examples\AMInternalType\obj\Debug\AMInternalType.exe
+C:\Users\avani\source\repos\Csharp_Examples\AMInternalType\obj\Debug\AMInternalType.pdb
