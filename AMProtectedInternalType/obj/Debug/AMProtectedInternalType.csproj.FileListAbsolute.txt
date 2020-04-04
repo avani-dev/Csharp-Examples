@@ -1,0 +1,5 @@
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedInternalType\bin\Debug\AMProtectedInternalType.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedInternalType\bin\Debug\AMProtectedInternalType.exe
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedInternalType\bin\Debug\AMProtectedInternalType.pdb
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedInternalType\obj\Debug\AMProtectedInternalType.exe
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedInternalType\obj\Debug\AMProtectedInternalType.pdb

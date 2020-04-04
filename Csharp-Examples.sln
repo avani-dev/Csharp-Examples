@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMProtectedType", "AMProtec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMInternalType", "AMInternalType\AMInternalType.csproj", "{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMProtectedInternalType", "AMProtectedInternalType\AMProtectedInternalType.csproj", "{B7977E20-2900-4E0F-9AD8-44D6A11DF278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED6B9F5-12EC-4ABD-AEB0-F73F03FA67AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7977E20-2900-4E0F-9AD8-44D6A11DF278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7977E20-2900-4E0F-9AD8-44D6A11DF278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7977E20-2900-4E0F-9AD8-44D6A11DF278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7977E20-2900-4E0F-9AD8-44D6A11DF278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
