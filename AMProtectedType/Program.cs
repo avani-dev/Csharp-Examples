@@ -22,7 +22,7 @@ namespace AMProtectedType
     {
         static void Main(string[] args)
         {
-            User u = new User();
+            //User u = new User();
             Program p = new Program();
             p.Name = "Avani Panchal";
             p.Location = "Ahmedabad";
