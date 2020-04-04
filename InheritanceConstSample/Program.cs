@@ -8,10 +8,6 @@ namespace InheritanceConstSample
 {
     class class1
     {
-        //public class1()
-        //{
-        //    Console.WriteLine("Base class Constirctor");
-        //}
         public int a;
         public int b;
         public class1(int a, int b)
@@ -25,10 +21,6 @@ namespace InheritanceConstSample
 
     class class2 : class1
     {
-        //public class2()
-        //{
-        //    Console.WriteLine("Child class Constructor");
-        //}
         int c;
         public class2(int a1, int b1, int c1) : base(a1, b1)
         {
