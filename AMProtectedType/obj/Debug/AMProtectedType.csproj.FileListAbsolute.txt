@@ -1,0 +1,5 @@
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedType\bin\Debug\AMProtectedType.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedType\bin\Debug\AMProtectedType.exe
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedType\bin\Debug\AMProtectedType.pdb
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedType\obj\Debug\AMProtectedType.exe
+C:\Users\avani\source\repos\Csharp_Examples\AMProtectedType\obj\Debug\AMProtectedType.pdb

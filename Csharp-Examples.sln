@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSample", "Interfac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceConstSample", "InheritanceConstSample\InheritanceConstSample.csproj", "{EE2A4473-8D71-4A8A-AA70-E5F96005F364}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMProtectedType", "AMProtectedType\AMProtectedType.csproj", "{753061AC-AC99-49B2-92BC-B21856A5ED9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EE2A4473-8D71-4A8A-AA70-E5F96005F364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2A4473-8D71-4A8A-AA70-E5F96005F364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2A4473-8D71-4A8A-AA70-E5F96005F364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753061AC-AC99-49B2-92BC-B21856A5ED9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753061AC-AC99-49B2-92BC-B21856A5ED9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753061AC-AC99-49B2-92BC-B21856A5ED9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753061AC-AC99-49B2-92BC-B21856A5ED9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
