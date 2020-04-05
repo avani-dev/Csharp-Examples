@@ -1,0 +1,5 @@
+C:\Users\avani\source\repos\Csharp_Examples\AProperty\bin\Debug\AProperty.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\AProperty\bin\Debug\AProperty.exe
+C:\Users\avani\source\repos\Csharp_Examples\AProperty\bin\Debug\AProperty.pdb
+C:\Users\avani\source\repos\Csharp_Examples\AProperty\obj\Debug\AProperty.exe
+C:\Users\avani\source\repos\Csharp_Examples\AProperty\obj\Debug\AProperty.pdb
