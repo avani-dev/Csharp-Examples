@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTPolymorphism", "RTPolymor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractSample", "AbstractSample\AbstractSample.csproj", "{A5EDF37D-F860-4199-96EC-E9C8DBB93B22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleCastDelegate", "SingleCastDelegate\SingleCastDelegate.csproj", "{E6F28583-A84D-4151-8607-49C5DF13A092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{A5EDF37D-F860-4199-96EC-E9C8DBB93B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5EDF37D-F860-4199-96EC-E9C8DBB93B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5EDF37D-F860-4199-96EC-E9C8DBB93B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F28583-A84D-4151-8607-49C5DF13A092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F28583-A84D-4151-8607-49C5DF13A092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F28583-A84D-4151-8607-49C5DF13A092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F28583-A84D-4151-8607-49C5DF13A092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

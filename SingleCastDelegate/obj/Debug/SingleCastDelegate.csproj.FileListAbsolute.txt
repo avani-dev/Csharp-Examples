@@ -1,0 +1,6 @@
+C:\Users\avani\source\repos\Csharp_Examples\SingleCastDelegate\bin\Debug\SingleCastDelegate.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\SingleCastDelegate\bin\Debug\SingleCastDelegate.exe
+C:\Users\avani\source\repos\Csharp_Examples\SingleCastDelegate\bin\Debug\SingleCastDelegate.pdb
+C:\Users\avani\source\repos\Csharp_Examples\SingleCastDelegate\obj\Debug\SingleCastDelegate.csprojAssemblyReference.cache
+C:\Users\avani\source\repos\Csharp_Examples\SingleCastDelegate\obj\Debug\SingleCastDelegate.exe
+C:\Users\avani\source\repos\Csharp_Examples\SingleCastDelegate\obj\Debug\SingleCastDelegate.pdb
