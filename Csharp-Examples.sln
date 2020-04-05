@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMInternalType", "AMInterna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMProtectedInternalType", "AMProtectedInternalType\AMProtectedInternalType.csproj", "{B7977E20-2900-4E0F-9AD8-44D6A11DF278}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTPolymorphism", "CTPolymorphism\CTPolymorphism.csproj", "{B05D0C61-6BF3-4970-BAFE-14CD96183A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTPolymorphism", "RTPolymorphism\RTPolymorphism.csproj", "{CC5DF54C-9321-4C96-B9B0-0073EDC7B795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{B7977E20-2900-4E0F-9AD8-44D6A11DF278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7977E20-2900-4E0F-9AD8-44D6A11DF278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7977E20-2900-4E0F-9AD8-44D6A11DF278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05D0C61-6BF3-4970-BAFE-14CD96183A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05D0C61-6BF3-4970-BAFE-14CD96183A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05D0C61-6BF3-4970-BAFE-14CD96183A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05D0C61-6BF3-4970-BAFE-14CD96183A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5DF54C-9321-4C96-B9B0-0073EDC7B795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5DF54C-9321-4C96-B9B0-0073EDC7B795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5DF54C-9321-4C96-B9B0-0073EDC7B795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5DF54C-9321-4C96-B9B0-0073EDC7B795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
