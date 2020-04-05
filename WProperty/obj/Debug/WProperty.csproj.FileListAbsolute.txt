@@ -1,0 +1,5 @@
+C:\Users\avani\source\repos\Csharp_Examples\WProperty\bin\Debug\WProperty.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\WProperty\bin\Debug\WProperty.exe
+C:\Users\avani\source\repos\Csharp_Examples\WProperty\bin\Debug\WProperty.pdb
+C:\Users\avani\source\repos\Csharp_Examples\WProperty\obj\Debug\WProperty.exe
+C:\Users\avani\source\repos\Csharp_Examples\WProperty\obj\Debug\WProperty.pdb

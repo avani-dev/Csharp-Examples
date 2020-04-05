@@ -1,0 +1,5 @@
+C:\Users\avani\source\repos\Csharp_Examples\RWProperty\bin\Debug\RWProperty.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\RWProperty\bin\Debug\RWProperty.exe
+C:\Users\avani\source\repos\Csharp_Examples\RWProperty\bin\Debug\RWProperty.pdb
+C:\Users\avani\source\repos\Csharp_Examples\RWProperty\obj\Debug\RWProperty.exe
+C:\Users\avani\source\repos\Csharp_Examples\RWProperty\obj\Debug\RWProperty.pdb

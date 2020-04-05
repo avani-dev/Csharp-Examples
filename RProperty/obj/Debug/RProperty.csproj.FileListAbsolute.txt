@@ -1,0 +1,6 @@
+C:\Users\avani\source\repos\Csharp_Examples\RProperty\bin\Debug\RProperty.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\RProperty\bin\Debug\RProperty.exe
+C:\Users\avani\source\repos\Csharp_Examples\RProperty\bin\Debug\RProperty.pdb
+C:\Users\avani\source\repos\Csharp_Examples\RProperty\obj\Debug\RProperty.exe
+C:\Users\avani\source\repos\Csharp_Examples\RProperty\obj\Debug\RProperty.pdb
+C:\Users\avani\source\repos\Csharp_Examples\RProperty\obj\Debug\RProperty.csprojAssemblyReference.cache
