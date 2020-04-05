@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleCastDelegate", "Singl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiCastDelegate", "MultiCastDelegate\MultiCastDelegate.csproj", "{5830223E-9613-4F67-B0F1-3F8811FF7E6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDelegate", "EventDelegate\EventDelegate.csproj", "{FB8C61E0-B220-4DB8-BA9E-8D98CD9298A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{5830223E-9613-4F67-B0F1-3F8811FF7E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5830223E-9613-4F67-B0F1-3F8811FF7E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5830223E-9613-4F67-B0F1-3F8811FF7E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB8C61E0-B220-4DB8-BA9E-8D98CD9298A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8C61E0-B220-4DB8-BA9E-8D98CD9298A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8C61E0-B220-4DB8-BA9E-8D98CD9298A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8C61E0-B220-4DB8-BA9E-8D98CD9298A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

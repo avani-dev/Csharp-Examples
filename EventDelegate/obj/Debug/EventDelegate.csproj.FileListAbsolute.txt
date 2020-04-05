@@ -1,0 +1,6 @@
+C:\Users\avani\source\repos\Csharp_Examples\EventDelegate\bin\Debug\EventDelegate.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\EventDelegate\bin\Debug\EventDelegate.exe
+C:\Users\avani\source\repos\Csharp_Examples\EventDelegate\bin\Debug\EventDelegate.pdb
+C:\Users\avani\source\repos\Csharp_Examples\EventDelegate\obj\Debug\EventDelegate.csprojAssemblyReference.cache
+C:\Users\avani\source\repos\Csharp_Examples\EventDelegate\obj\Debug\EventDelegate.exe
+C:\Users\avani\source\repos\Csharp_Examples\EventDelegate\obj\Debug\EventDelegate.pdb
