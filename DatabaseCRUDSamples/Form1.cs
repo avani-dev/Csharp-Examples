@@ -20,16 +20,17 @@ namespace DatabaseCRUDSamples
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=Sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             SqlCommand cmd = new SqlCommand("Select * from cSharp", con);
             con.Open();
+            cmd.Parameters.AddWithValue("@name",textBox3.Text);
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
                 //comboBox1.Items.Add(dr["id"].ToString());
-                //textBox1.Text = dr[0].ToString();
-                //textBox2.Text = dr[1].ToString();
-                //textBox3.Text = dr[2].ToString();
+                textBox1.Text = dr[0].ToString();
+                textBox2.Text = dr[1].ToString();
+                textBox3.Text = dr[2].ToString();
 
             }
             con.Close();
@@ -37,9 +38,10 @@ namespace DatabaseCRUDSamples
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=Sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            SqlCommand cmd = new SqlCommand("Select * from cSharp where id =" + Convert.ToInt32(textBox3.Text)+"", con);
+            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlCommand cmd = new SqlCommand("Select * from cSharp where id =" + Convert.ToInt32(textBox4.Text)+"", con);
             con.Open();
+            cmd.Parameters.AddWithValue("@name", textBox4.Text);
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
