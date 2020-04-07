@@ -23,7 +23,7 @@ namespace DatabaseCRUDSamples
             SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             SqlCommand cmd = new SqlCommand("Select * from cSharp", con);
             con.Open();
-            cmd.Parameters.AddWithValue("@name",textBox3.Text);
+            //cmd.Parameters.AddWithValue("@name",textBox4.Text);
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
@@ -41,7 +41,7 @@ namespace DatabaseCRUDSamples
             SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             SqlCommand cmd = new SqlCommand("Select * from cSharp where id =" + Convert.ToInt32(textBox4.Text)+"", con);
             con.Open();
-            cmd.Parameters.AddWithValue("@name", textBox4.Text);
+            //cmd.Parameters.AddWithValue("@name", textBox4.Text);
             SqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
@@ -49,6 +49,23 @@ namespace DatabaseCRUDSamples
                 textBox1.Text = dr[0].ToString();
                 textBox2.Text = dr[1].ToString();
                 textBox3.Text = dr[2].ToString();
+            }
+            con.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            SqlCommand cmd = new SqlCommand("insert into csharp(id,name,address) values(@id,@name,@address)", con);
+            con.Open();
+            cmd.Parameters.AddWithValue("@id", textBox1.Text);
+            cmd.Parameters.AddWithValue("@name", textBox2.Text);
+            cmd.Parameters.AddWithValue("@address", textBox3.Text);
+
+            int i = cmd.ExecuteNonQuery();
+            if(i>0)
+            {
+                MessageBox.Show("Record is inserted");
             }
             con.Close();
         }
