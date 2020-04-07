@@ -39,7 +39,7 @@ namespace DatabaseCRUDSamples
         private void button4_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            SqlCommand cmd = new SqlCommand("Select * from cSharp where id =" + Convert.ToInt32(textBox4.Text)+"", con);
+            SqlCommand cmd = new SqlCommand("Select * from cSharp where id =" + Convert.ToInt32(textBox4.Text) + "", con);
             con.Open();
             //cmd.Parameters.AddWithValue("@name", textBox4.Text);
             SqlDataReader dr = cmd.ExecuteReader();
@@ -63,7 +63,7 @@ namespace DatabaseCRUDSamples
             cmd.Parameters.AddWithValue("@address", textBox3.Text);
 
             int i = cmd.ExecuteNonQuery();
-            if(i>0)
+            if (i > 0)
             {
                 MessageBox.Show("Record is inserted");
             }
@@ -73,14 +73,14 @@ namespace DatabaseCRUDSamples
         private void button2_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            SqlCommand cmd = new SqlCommand("Update csharp set id=@id, name=@name, address=@address where id =" +Convert.ToInt32(textBox4.Text)+"", con);
+            SqlCommand cmd = new SqlCommand("Update csharp set id=@id, name=@name, address=@address where id =" + Convert.ToInt32(textBox4.Text) + "", con);
             con.Open();
             cmd.Parameters.AddWithValue("@id", Convert.ToInt32(textBox1.Text));
             cmd.Parameters.AddWithValue("@name", textBox2.Text);
             cmd.Parameters.AddWithValue("@address", textBox3.Text);
 
             int i = cmd.ExecuteNonQuery();
-            if(i>0)
+            if (i > 0)
             {
                 MessageBox.Show("Record is Updated");
             }
@@ -93,9 +93,11 @@ namespace DatabaseCRUDSamples
             SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Initial Catalog=sample;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             SqlCommand cmd = new SqlCommand("Delete from csharp where id =" + Convert.ToInt32(textBox4.Text) + "", con);
             con.Open();
-
+            cmd.Parameters.AddWithValue("@id", Convert.ToInt32(textBox1.Text));
+            cmd.Parameters.AddWithValue("@name", textBox2.Text);
+            cmd.Parameters.AddWithValue("@address", textBox3.Text);
             int i = cmd.ExecuteNonQuery();
-            if(i>0)
+            if (i > 0)
             {
                 MessageBox.Show("Record is Deleted");
             }
