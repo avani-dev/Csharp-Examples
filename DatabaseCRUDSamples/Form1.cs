@@ -104,5 +104,44 @@ namespace DatabaseCRUDSamples
             con.Close();
 
         }
+       // private void button1_Click(object sender, EventArgs e)
+        //{
+            //insert -update -delete (ExecuteNonQuery) it returns number of rows efected.
+            //SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-QFE7L0M;Initial Catalog=Training;Integrated Security=True");
+            //string str = "insert into chsrap values ('" + textBox1.Text + "', " + Convert.ToInt32(textBox2.Text) + ", '" + textBox3.Text + "')";
+            //SqlCommand cmdd = new SqlCommand(str, con);
+            //SqlCommand cmd = new SqlCommand("insert into chsrap values ('" + textBox1.Text + "', " + Convert.ToInt32(textBox2.Text) + ", '" + textBox3.Text + "')", con);
+            // SqlCommand cmd = new SqlCommand("insert into chsrap(name,id,address) values (@name,@id,@address)", con);
+            //con.Open();
+            //cmd.Parameters.AddWithValue("@name", textBox1.Text);
+            //cmd.Parameters.AddWithValue("@id", Convert.ToInt32(textBox2.Text));
+            //cmd.Parameters.AddWithValue("@address", textBox3.Text);
+
+            //int i = cmd.ExecuteNonQuery();
+            //if(i>0)
+            //{
+            //    MessageBox.Show("Record is inderted");
+            //}
+            // con.Close();
+            //data adapter , datareader //open and close ->output dataset temory
+        //    SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-QFE7L0M;Initial Catalog=Training;Integrated Security=True");
+        //    SqlDataAdapter da = new SqlDataAdapter("select * from chsrap", con);
+        //    SqlCommandBuilder blr = new SqlCommandBuilder(da);
+        //    DataSet ds = new DataSet();
+        //    da.Fill(ds, "chsrap");
+        //    DataRow dr = ds.Tables["chsrap"].NewRow();
+        //    dr["name"] = textBox1.Text;
+        //    dr["id"] = Convert.ToInt32(textBox2.Text);
+        //    dr["address"] = textBox3.Text;
+        //    ds.Tables["chsrap"].Rows.Add(dr);
+        //    int i = da.Update(ds, "chsrap");
+        //    if (i > 0)
+        //    {
+        //        MessageBox.Show("Record is inserted");
+        //    }
+
+
+        //}
+
     }
 }
