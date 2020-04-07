@@ -1,0 +1,9 @@
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\bin\Debug\DatabaseCRUDSamples.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\bin\Debug\DatabaseCRUDSamples.exe
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\bin\Debug\DatabaseCRUDSamples.pdb
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\obj\Debug\DatabaseCRUDSamples.csprojAssemblyReference.cache
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\obj\Debug\DatabaseCRUDSamples.Form1.resources
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\obj\Debug\DatabaseCRUDSamples.Properties.Resources.resources
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\obj\Debug\DatabaseCRUDSamples.csproj.GenerateResource.cache
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\obj\Debug\DatabaseCRUDSamples.exe
+C:\Users\avani\source\repos\Csharp_Examples\DatabaseCRUDSamples\obj\Debug\DatabaseCRUDSamples.pdb
