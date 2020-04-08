@@ -1,0 +1,6 @@
+C:\Users\avani\source\repos\Csharp_Examples\ExceptionHandlingSample2\bin\Debug\ExceptionHandlingSample2.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\ExceptionHandlingSample2\bin\Debug\ExceptionHandlingSample2.exe
+C:\Users\avani\source\repos\Csharp_Examples\ExceptionHandlingSample2\bin\Debug\ExceptionHandlingSample2.pdb
+C:\Users\avani\source\repos\Csharp_Examples\ExceptionHandlingSample2\obj\Debug\ExceptionHandlingSample2.csprojAssemblyReference.cache
+C:\Users\avani\source\repos\Csharp_Examples\ExceptionHandlingSample2\obj\Debug\ExceptionHandlingSample2.exe
+C:\Users\avani\source\repos\Csharp_Examples\ExceptionHandlingSample2\obj\Debug\ExceptionHandlingSample2.pdb
