@@ -21,8 +21,11 @@ namespace ExceptionHandlingSample2
             {
                 Console.WriteLine(ex.Message);
             }
-            Console.WriteLine("Result is =" +div);
-            Console.ReadLine();
+            finally
+            {
+                Console.WriteLine("Result is =" + div);
+            }
+           Console.ReadLine();
                 
         }
     }
