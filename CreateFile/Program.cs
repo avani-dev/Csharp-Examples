@@ -15,12 +15,14 @@ namespace CreateFile
             {
                 Console.WriteLine("Directory is already created");
                 Console.WriteLine(Directory.GetCreationTime(@"D:/Avanee"));
+                Console.WriteLine(Directory.GetLastAccessTime(@"D:/Avanee"));
             }
             else
             {
                 Directory.CreateDirectory(@"D:/Avanee");
                 Console.WriteLine("Directory is created");
                 Console.WriteLine(Directory.GetCreationTime(@"D:/Avanee"));
+                Console.WriteLine(Directory.GetLastAccessTime(@"D:/Avanee"));
             }
         }
     }

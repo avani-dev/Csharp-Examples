@@ -1,0 +1,5 @@
+C:\Users\avani\source\repos\Csharp_Examples\Sample1\bin\Debug\Sample1.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\Sample1\bin\Debug\Sample1.exe
+C:\Users\avani\source\repos\Csharp_Examples\Sample1\bin\Debug\Sample1.pdb
+C:\Users\avani\source\repos\Csharp_Examples\Sample1\obj\Debug\Sample1.exe
+C:\Users\avani\source\repos\Csharp_Examples\Sample1\obj\Debug\Sample1.pdb

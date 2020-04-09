@@ -3,3 +3,4 @@ C:\Users\avani\source\repos\Csharp_Examples\CreateFile\bin\Debug\CreateFile.exe
 C:\Users\avani\source\repos\Csharp_Examples\CreateFile\bin\Debug\CreateFile.pdb
 C:\Users\avani\source\repos\Csharp_Examples\CreateFile\obj\Debug\CreateFile.exe
 C:\Users\avani\source\repos\Csharp_Examples\CreateFile\obj\Debug\CreateFile.pdb
+C:\Users\avani\source\repos\Csharp_Examples\CreateFile\obj\Debug\CreateFile.csprojAssemblyReference.cache
