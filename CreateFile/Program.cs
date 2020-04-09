@@ -25,6 +25,22 @@ namespace CreateFile
                 Console.WriteLine(Directory.GetLastAccessTime(@"D:/Avanee"));
             }
         }
+        public void CreateFile()
+        {
+            if (File.Exists(@"D:/Avanee/1.txt"))
+            {
+                Console.WriteLine("File is already created");
+                Console.WriteLine(File.GetCreationTime(@"D:/Avanee1.txt"));
+                Console.WriteLine(File.GetLastAccessTime(@"D:/Avanee1.txt"));
+            }
+            else
+            {
+                File.Create(@"D:/Avanee/1.txt");
+                Console.WriteLine("File is created");
+                Console.WriteLine(File.GetCreationTime(@"D:/Avanee1.txt"));
+                Console.WriteLine(File.GetLastAccessTime(@"D:/Avanee1.txt"));
+            }
+        }
     }
     class Program
     {
@@ -32,6 +48,7 @@ namespace CreateFile
         {
             createDir cd = new createDir();
             cd.CreateDirectory();
+            cd.CreateFile();
             Console.ReadLine();
         }
     }
