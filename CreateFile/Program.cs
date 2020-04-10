@@ -25,7 +25,7 @@ namespace CreateFile
                 Console.WriteLine(Directory.GetLastAccessTime(@"D:/Avanee"));
             }
         }
-        public void CreateFile()
+        public void CreateFile1()
         {
             if (File.Exists(@"D:/Avanee/1.txt"))
             {
@@ -78,7 +78,7 @@ namespace CreateFile
                 sw.Flush();
                 sw.Close();
             }
-            catch(IOException ex)
+            catch (IOException ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -96,20 +96,55 @@ namespace CreateFile
 
             }
         }
+        public void ReadInformation()
+        {
+            DirectoryInfo dir = new DirectoryInfo(@"C:/Windows");
+            FileInfo[] infofile = dir.GetFiles();
+            foreach (FileInfo f in infofile)
+            {
+                Console.WriteLine("Name=" + f.Name + "," + "Length=" + f.Length);
+
+            }
+        }
+
+        public void Binary_Write_Read()
+        {
+            FileStream f111 = new FileStream(@"D:/Avanee/f111.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            BinaryWriter bw = new BinaryWriter(f111);
+            bw.Write("Synehcron");
+            bw.Write(1000);
+            bw.Write(123.4);
+            bw.Write('c');
+            bw.Flush();
+            f111.Close();
+            FileStream f1111 = new FileStream(@"D:/Avanee/f111.txt", FileMode.Open, FileAccess.Read);
+            BinaryReader br = new BinaryReader(f1111);
+            string str = br.ReadString();
+            int m = br.ReadInt32();
+            double m1 = br.ReadDouble();
+            char ch1 = br.ReadChar();
+            Console.WriteLine("str=" + str + "," + "m=" + m + "," + "m1=" + m1 + "," + "ch1=" + ch1);
+            br.Close();
+            f1111.Close();
+        }
     }
+
     class Program
     {
         static void Main(string[] args)
         {
             createDir cd = new createDir();
-            //cd.CreateDirectory();
-            //cd.CreateFile();
-            //cd.DirectoryInfo();
-            //cd.CreateFile();
-            //cd.FileInfo();
+            cd.CreateDirectory();
+            cd.CreateFile();
+            cd.DirectoryInfo();
+            cd.CreateFile1();
+            cd.FileInfo();
             cd.WriteFile();
             cd.ReadFromFile();
+            cd.ReadInformation();
+            cd.Binary_Write_Read();
             Console.ReadLine();
         }
     }
+
 }
