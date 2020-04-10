@@ -30,15 +30,15 @@ namespace CreateFile
             if (File.Exists(@"D:/Avanee/1.txt"))
             {
                 Console.WriteLine("File is already created");
-                Console.WriteLine(File.GetCreationTime(@"D:/Avanee1.txt"));
-                Console.WriteLine(File.GetLastAccessTime(@"D:/Avanee1.txt"));
+                Console.WriteLine(File.GetCreationTime(@"D:/Avanee/1.txt"));
+                Console.WriteLine(File.GetLastAccessTime(@"D:/Avanee/1.txt"));
             }
             else
             {
                 File.Create(@"D:/Avanee/1.txt");
                 Console.WriteLine("File is created");
-                Console.WriteLine(File.GetCreationTime(@"D:/Avanee1.txt"));
-                Console.WriteLine(File.GetLastAccessTime(@"D:/Avanee1.txt"));
+                Console.WriteLine(File.GetCreationTime(@"D:/Avanee/1.txt"));
+                Console.WriteLine(File.GetLastAccessTime(@"D:/Avanee/1.txt"));
             }
         }
         public void DirectoryInfo()
@@ -51,6 +51,17 @@ namespace CreateFile
             Console.WriteLine("Name = " + dir.Name);
             Console.WriteLine("CreationTime = " + dir.CreationTime);
         }
+        public void FileInfo()
+        {
+            FileInfo file = new FileInfo(@"D:/Avanee1.txt");
+            Console.WriteLine("FullName = " + file.FullName);
+            Console.WriteLine("Extention = " + file.Extension);
+            Console.WriteLine("GetType = " + file.GetType());
+            Console.WriteLine("LastWriteTime = " + file.LastWriteTime);
+            Console.WriteLine("Name = " + file.Name);
+            Console.WriteLine("CreationTime = " + file.CreationTime);
+
+        }
     }
     class Program
     {
@@ -58,6 +69,8 @@ namespace CreateFile
         {
             createDir cd = new createDir();
             cd.CreateDirectory();
+            cd.CreateFile();
+            cd.DirectoryInfo();
             cd.CreateFile();
             Console.ReadLine();
         }
