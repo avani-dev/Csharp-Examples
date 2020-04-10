@@ -11,7 +11,7 @@ namespace CreateFile
     {
         public void CreateDirectory()
         {
-            if(Directory.Exists(@"D:/Avanee"))
+            if (Directory.Exists(@"D:/Avanee"))
             {
                 Console.WriteLine("Directory is already created");
                 Console.WriteLine(Directory.GetCreationTime(@"D:/Avanee"));
@@ -53,7 +53,7 @@ namespace CreateFile
         }
         public void FileInfo()
         {
-            FileInfo file = new FileInfo(@"D:/Avanee1.txt");
+            FileInfo file = new FileInfo(@"D:/Avanee/1.txt");
             Console.WriteLine("FullName = " + file.FullName);
             Console.WriteLine("Extention = " + file.Extension);
             Console.WriteLine("GetType = " + file.GetType());
@@ -62,16 +62,53 @@ namespace CreateFile
             Console.WriteLine("CreationTime = " + file.CreationTime);
 
         }
+
+        public void WriteFile()
+        {
+            FileStream fs;
+            StreamWriter sw;
+            try
+            {
+                fs = new FileStream(@"D:/Avanee/1.txt", FileMode.OpenOrCreate, FileAccess.Write);
+                sw = new StreamWriter(fs);
+                string str;
+                Console.WriteLine("Enter the String");
+                str = Console.ReadLine();
+                sw.Write(str);
+                sw.Flush();
+                sw.Close();
+            }
+            catch(IOException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        public void ReadFromFile()
+        {
+            FileStream fs = new FileStream(@"D:/Avanee/1.txt", FileMode.Open, FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
+            string str;
+            str = sr.ReadToEnd();
+            while (str != null)
+            {
+                Console.WriteLine(str);
+                str = Console.ReadLine();
+
+            }
+        }
     }
     class Program
     {
         static void Main(string[] args)
         {
             createDir cd = new createDir();
-            cd.CreateDirectory();
-            cd.CreateFile();
-            cd.DirectoryInfo();
-            cd.CreateFile();
+            //cd.CreateDirectory();
+            //cd.CreateFile();
+            //cd.DirectoryInfo();
+            //cd.CreateFile();
+            //cd.FileInfo();
+            cd.WriteFile();
+            cd.ReadFromFile();
             Console.ReadLine();
         }
     }
