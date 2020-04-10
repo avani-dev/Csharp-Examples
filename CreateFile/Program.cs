@@ -135,7 +135,7 @@ namespace CreateFile
         {
             createDir cd = new createDir();
             cd.CreateDirectory();
-            cd.CreateFile();
+            cd.CreateFile1();
             cd.DirectoryInfo();
             cd.CreateFile1();
             cd.FileInfo();
