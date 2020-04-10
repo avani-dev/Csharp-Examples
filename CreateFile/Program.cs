@@ -41,6 +41,16 @@ namespace CreateFile
                 Console.WriteLine(File.GetLastAccessTime(@"D:/Avanee1.txt"));
             }
         }
+        public void DirectoryInfo()
+        {
+            DirectoryInfo dir = new DirectoryInfo(@"D:/Avanee");
+            Console.WriteLine("FullName = " + dir.FullName);
+            Console.WriteLine("Extention = " + dir.Extension);
+            Console.WriteLine("GetType = " + dir.GetType());
+            Console.WriteLine("LastWriteTime = " + dir.LastWriteTime);
+            Console.WriteLine("Name = " + dir.Name);
+            Console.WriteLine("CreationTime = " + dir.CreationTime);
+        }
     }
     class Program
     {
