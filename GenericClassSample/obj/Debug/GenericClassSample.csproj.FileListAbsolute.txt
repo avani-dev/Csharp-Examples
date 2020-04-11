@@ -1,0 +1,6 @@
+C:\Users\avani\source\repos\Csharp_Examples\GenericClassSample\bin\Debug\GenericClassSample.exe.config
+C:\Users\avani\source\repos\Csharp_Examples\GenericClassSample\bin\Debug\GenericClassSample.exe
+C:\Users\avani\source\repos\Csharp_Examples\GenericClassSample\bin\Debug\GenericClassSample.pdb
+C:\Users\avani\source\repos\Csharp_Examples\GenericClassSample\obj\Debug\GenericClassSample.csprojAssemblyReference.cache
+C:\Users\avani\source\repos\Csharp_Examples\GenericClassSample\obj\Debug\GenericClassSample.exe
+C:\Users\avani\source\repos\Csharp_Examples\GenericClassSample\obj\Debug\GenericClassSample.pdb

@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListSample", "ArrayLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackSample", "StackSample\StackSample.csproj", "{C4467227-81FD-4C12-A575-C9C72E9BE90B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClassSample", "GenericClassSample\GenericClassSample.csproj", "{4A537750-22C8-42EF-952A-55B9C4FA71B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{C4467227-81FD-4C12-A575-C9C72E9BE90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4467227-81FD-4C12-A575-C9C72E9BE90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4467227-81FD-4C12-A575-C9C72E9BE90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A537750-22C8-42EF-952A-55B9C4FA71B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A537750-22C8-42EF-952A-55B9C4FA71B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A537750-22C8-42EF-952A-55B9C4FA71B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A537750-22C8-42EF-952A-55B9C4FA71B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
