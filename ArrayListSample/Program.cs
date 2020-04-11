@@ -30,7 +30,23 @@ namespace ArrayListSample
             Console.WriteLine("Capacity = " + arr.Capacity);
             Console.WriteLine("Contains = " + arr.Contains("Test"));
             Console.WriteLine("Remove Method");
-            // arr.Remove("C#");
+            arr.Remove("C#");
+            foreach(object a in arr)
+            {
+                Console.WriteLine(a);
+            }
+            Console.WriteLine("====RemoveAt====");
+            arr.RemoveAt(1);
+            foreach(object a in arr)
+            {
+                Console.WriteLine(a);
+            }
+            Console.WriteLine("======Remove Range===");
+            arr.RemoveRange(0,1);
+            foreach(object a in arr)
+            {
+                Console.WriteLine(a);
+            }
             Console.ReadLine();
         }
     }
